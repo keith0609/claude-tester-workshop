@@ -1,0 +1,6 @@
+﻿Workshop key Api.txt
+.claude/agent-memory/
+.claude/hooks/validation.log
+out-*.feature
+
+subagent-templates/05-subagent-template.pdf
