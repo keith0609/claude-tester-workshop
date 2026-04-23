@@ -1,6 +1,32 @@
-﻿Workshop key Api.txt
+﻿# Secrets en keys — NOOIT committen
+*.key
+*.pem
+*.env
+.env
+.env.*
+*ApiKey*
+*api-key*
+*secret*
+
+# Claude Code lokale artefacten
 .claude/agent-memory/
 .claude/hooks/validation.log
+.claude/settings.local.json
+
+# Pipeline-output (wordt elke keer opnieuw gegenereerd)
 out-*.feature
 
-subagent-templates/05-subagent-template.pdf
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Workshop specifiek
+subagent-templates/*.pdf
